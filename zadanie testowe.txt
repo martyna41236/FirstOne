@@ -1,0 +1,39 @@
+1.1 Czym jest git i co umo¿liwia?
+
+Git to system kontroli wersji. Pozwala na prace nad jednym projektem kilku osobom, bez ingerencji w oryginalny kod, przed zapisem (brak nadpisywania). Mamy dostêp do historii zmian (i osób które je wprowadzi³y), które w razie potrzeby mo¿na cofn¹æ. Kilka osób mo¿e rozwijaæ aplikacjê jednoczeœnie, dodaj¹c ró¿ne funkcjonalnoœci. Mamy podgl¹d która linijka kodu zosta³a zmieniona i w jaki sposób.
+
+1.2. Na czym polega branching i co to s¹ ga³êzie?
+
+Branching to tworzenie ga³êzi projektu w obrêbie g³ównego repozytorium projektu. Ga³êzie to czêœci projektu, rozwijane przez dane osoby. Dziêki temu nie nadpisujemy od razu zmian w g³ównym kodzie, tylko mamy mo¿liwoœæ pracy na osobnym jego odga³êzieniu i dodaæ te zmiany w odpowiednim momencie.
+
+1.3. Czym jest repozytorium?
+
+G³ówny zbiór kodu  ca³ego projektu. Do niego dodajemy (commit) konkretne ga³êzie kodu.
+
+1.4. Jakie wyró¿nia siê dwa typy repozytorium?
+
+Repozytorium lokalne i zdalne.
+
+1.5. Czym jest plik .gitignore?
+
+Plik s³u¿¹cy do ignorowania konkretntych œcie¿ek kodu. Wtedy te zmiany nie pojawiaj¹ siêna serwerze i nie s¹ widoczne.
+
+1.6. Kto/Co to jest master?
+
+Jest to branch g³ówny projektu.
+
+1.7. Czym jest polecenie commit?
+
+W³¹cza czêœci kodu (zmiany) do kodu g³ównego – lokalnego repozytorium.
+
+1.8. Czym jest klonowanie?
+
+Kopiowanie repozytorium z serwera na lokalny komputer.
+
+1.9. Czym jest merge a czym rebase?
+
+Po³¹czenie wielu zmian z ró¿nych Ÿróde³.
+Je¿eli u¿ywamy funkcji merge git stara siê rozwi¹zaæ wszystkie konflikty i umieszcza nasze zmiany miêdzy zmianami innych cz³onków zespo³u, porz¹dkuj¹c je wzglêdem linii czasu. Natomiast gdy u¿ywamy opcji rebase git przenosi nasze lokalne zmiany do tymczasowego miejsca i doci¹ga to, co siê zmieni³o z zdalnego repozytoriom. Po czym ka¿d¹ nasz¹ lokaln¹ zmianê umieszcza z powrotem na branch na samej górze wszystkich doci¹gniêtych zmian.
+
+1.10. Czym jest Pull Request?
+Polecenie zaproponowania zmian w repozytorium, równie¿ osób, które nie maj¹ uprawnieñ dodawania zmian.
