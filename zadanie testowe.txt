@@ -24,7 +24,7 @@ Jest to branch g³ówny projektu.
 
 1.7. Czym jest polecenie commit?
 
-W³¹cza czêœci kodu (zmiany) do kodu g³ównego – repozytorium.
+W³¹cza czêœci kodu (zmiany) do kodu g³ównego – lokalnego repozytorium.
 
 1.8. Czym jest klonowanie?
 
